@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": ".",
+    "site": "deepak-tictactoe-js",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
